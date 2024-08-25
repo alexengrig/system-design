@@ -1,11 +1,11 @@
+import ActiveUsers from './ActiveUsers'
+
 function App() {
   return (
     <div>
-      <header>
-        Hello, System Design!
-      </header>
+      <ActiveUsers />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
